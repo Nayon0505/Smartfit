@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("Nutzer:",Nutzername);
     }
     public void launchActivity(View v) {
-        Intent i = new Intent(this, neueActivity.class); //man kann this sagen weil unsere derzeitige Activity von context inherited
+        Intent i = new Intent(this, register.class); //man kann this sagen weil unsere derzeitige Activity von context inherited
         startActivity(i);
     }
 }
